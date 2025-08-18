@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>vip.xiaonuo</groupId>
+        <artifactId>snowy-plugin</artifactId>
+        <version>2.0.0</version>
+    </parent>
+
+    <artifactId>snowy-plugin-dbs</artifactId>
+    <packaging>jar</packaging>
+    <description>多数据源插件</description>
+
+    <dependencies>
+        <!-- 每个插件都要引入自己的对外接口 -->
+        <dependency>
+            <groupId>vip.xiaonuo</groupId>
+            <artifactId>snowy-plugin-dbs-api</artifactId>
+        </dependency>
+
+        <!-- mybatis-plus多数据源插件 -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
+</project>
