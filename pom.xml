@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>vip.xiaonuo</groupId>
-    <artifactId>snowy</artifactId>
+    <groupId>com.xuan</groupId>
+    <artifactId>ether</artifactId>
     <name>snowy</name>
     <version>2.0.0</version>
     <description>snowy快速开发平台</description>
@@ -106,16 +106,16 @@
 
     <modules>
         <!-- 基础通用规则模块 -->
-        <module>snowy-common</module>
+        <module>ether-common</module>
 
         <!-- 插件模块 -->
-        <module>snowy-plugin</module>
+        <module>ether-plugin</module>
 
         <!-- 插件API接口模块 -->
-        <module>snowy-plugin-api</module>
+        <module>ether-plugin-api</module>
 
         <!-- 主启动模块 -->
-        <module>snowy-web-app</module>
+        <module>ether-web-app</module>
     </modules>
 
     <dependencyManagement>
@@ -123,190 +123,190 @@
 
             <!-- snowy-common -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-common</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-common</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-auth-api -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-auth-api</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-auth-api</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-biz-api -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-biz-api</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-biz-api</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-client-api -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-client-api</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-client-api</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-dbs-api -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-dbs-api</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-dbs-api</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-dev-api -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-dev-api</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-dev-api</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-exm-api -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-exm-api</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-exm-api</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-flw-api -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-flw-api</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-flw-api</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-gen-api -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-gen-api</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-gen-api</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-mobile-api -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-mobile-api</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-mobile-api</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-pay-api -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-pay-api</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-pay-api</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-sys-api -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-sys-api</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-sys-api</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-ten-api -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-ten-api</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-ten-api</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-urp-api -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-urp-api</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-urp-api</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-auth -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-auth</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-auth</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-biz -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-biz</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-biz</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-client -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-client</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-client</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-dbs -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-dbs</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-dbs</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-dev -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-dev</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-dev</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-exm -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-exm</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-exm</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-flw -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-flw</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-flw</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-gen -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-gen</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-gen</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-mobile -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-mobile</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-mobile</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-pay -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-pay</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-pay</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-sys -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-sys</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-sys</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-ten -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-ten</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-ten</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
             <!-- snowy-plugin-urp -->
             <dependency>
-                <groupId>vip.xiaonuo</groupId>
-                <artifactId>snowy-plugin-urp</artifactId>
+                <groupId>com.xuan</groupId>
+                <artifactId>ether-plugin-urp</artifactId>
                 <version>${snowy.version}</version>
             </dependency>
 
