@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.xuan</groupId>
+        <artifactId>ether</artifactId>
+        <version>2.0.0</version>
+    </parent>
+
+    <artifactId>ether-plugin</artifactId>
+    <packaging>pom</packaging>
+    <description>插件模块</description>
+
+    <modules>
+        <!-- 登录鉴权插件 -->
+        <module>ether-plugin-auth</module>
+
+        <!-- 业务功能插件 -->
+        <module>ether-plugin-biz</module>
+
+         <!-- C端功能插件 -->
+        <module>ether-plugin-client</module>
+
+        <!-- 多数据源插件 -->
+        <module>ether-plugin-dbs</module>
+
+        <!-- 开发工具插件 -->
+        <module>ether-plugin-dev</module>
+
+        <!-- 功能案例插件 -->
+        <module>ether-plugin-exm</module>
+
+        <!-- 工作流程插件 -->
+        <module>ether-plugin-flw</module>
+
+        <!-- 支付功能插件 -->
+        <module>ether-plugin-pay</module>
+
+        <!-- 代码生成插件 -->
+        <module>ether-plugin-gen</module>
+
+        <!-- 移动端管理插件 -->
+        <module>ether-plugin-mobile</module>
+
+        <!-- 系统功能插件 -->
+        <module>ether-plugin-sys</module>
+
+        <!-- 动态租户插件 -->
+        <module>ether-plugin-ten</module>
+
+        <!-- 报表设计插件 -->
+        <module>ether-plugin-urp</module>
+    </modules>
+</project>

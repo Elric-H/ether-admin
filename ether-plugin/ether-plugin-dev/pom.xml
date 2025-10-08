@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.xuan</groupId>
+        <artifactId>ether-plugin</artifactId>
+        <version>2.0.0</version>
+    </parent>
+
+    <artifactId>ether-plugin-dev</artifactId>
+    <packaging>jar</packaging>
+    <description>开发工具插件</description>
+
+    <dependencies>
+        <!-- 引入多数据源接口，用于选择数据源功能 -->
+        <dependency>
+            <groupId>com.xuan</groupId>
+            <artifactId>ether-plugin-dbs-api</artifactId>
+        </dependency>
+        <!-- 每个插件都要引入自己的对外接口 -->
+        <dependency>
+            <groupId>com.xuan</groupId>
+            <artifactId>ether-plugin-dev-api</artifactId>
+        </dependency>
+
+        <!-- 引入登录鉴权接口，用于获取登录用户 -->
+        <dependency>
+            <groupId>com.xuan</groupId>
+            <artifactId>ether-plugin-auth-api</artifactId>
+        </dependency>
+
+        <!-- 引入系统接口，用于获取用户等功能 -->
+        <dependency>
+            <groupId>com.xuan</groupId>
+            <artifactId>ether-plugin-sys-api</artifactId>
+        </dependency>
+
+        <!-- 引入多租户接口，用于多租户的配置 -->
+        <dependency>
+            <groupId>com.xuan</groupId>
+            <artifactId>ether-plugin-ten-api</artifactId>
+        </dependency>
+    </dependencies>
+</project>
