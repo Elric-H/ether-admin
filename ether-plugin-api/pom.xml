@@ -21,9 +21,6 @@
         <!-- 业务功能插件api接口 -->
         <module>ether-plugin-biz-api</module>
 
-        <!-- C端功能插件api接口 -->
-        <module>ether-plugin-client-api</module>
-
         <!-- 多数据源插件api接口 -->
         <module>ether-plugin-dbs-api</module>
 

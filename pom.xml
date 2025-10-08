@@ -142,13 +142,6 @@
                 <version>${snowy.version}</version>
             </dependency>
 
-            <!-- snowy-plugin-client-api -->
-            <dependency>
-                <groupId>com.xuan</groupId>
-                <artifactId>ether-plugin-client-api</artifactId>
-                <version>${snowy.version}</version>
-            </dependency>
-
             <!-- snowy-plugin-dbs-api -->
             <dependency>
                 <groupId>com.xuan</groupId>

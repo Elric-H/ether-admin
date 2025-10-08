@@ -15,10 +15,9 @@
     <description>C端功能插件</description>
 
     <dependencies>
-        <!-- 每个插件都要引入自己的对外接口 -->
         <dependency>
             <groupId>com.xuan</groupId>
-            <artifactId>ether-plugin-client-api</artifactId>
+            <artifactId>ether-common</artifactId>
         </dependency>
 
         <!-- 引入登录鉴权接口，用于实现其C端登录所需逻辑 -->
