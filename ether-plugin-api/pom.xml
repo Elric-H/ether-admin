@@ -15,9 +15,6 @@
     <description>插件API接口模块</description>
 
     <modules>
-        <!-- 登录鉴权插件api接口 -->
-        <module>ether-plugin-auth-api</module>
-
         <!-- 业务功能插件api接口 -->
         <module>ether-plugin-biz-api</module>
 

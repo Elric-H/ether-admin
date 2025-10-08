@@ -16,12 +16,6 @@
 
     <dependencies>
 
-        <!-- 每个插件都要引入自己的对外接口 -->
-        <dependency>
-            <groupId>com.xuan</groupId>
-            <artifactId>ether-plugin-auth-api</artifactId>
-        </dependency>
-
         <!-- 引入开发工具接口，用于获取配置 -->
         <dependency>
             <groupId>com.xuan</groupId>
@@ -58,10 +52,21 @@
             <artifactId>sa-token-sso</artifactId>
         </dependency>
 
+        <!-- sa-token-core -->
+        <dependency>
+            <groupId>cn.dev33</groupId>
+            <artifactId>sa-token-core</artifactId>
+        </dependency>
+
         <!-- JustAuth 第三方登录 -->
         <dependency>
             <groupId>me.zhyd.oauth</groupId>
             <artifactId>JustAuth</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.xuan</groupId>
+            <artifactId>ether-common</artifactId>
         </dependency>
     </dependencies>
 </project>

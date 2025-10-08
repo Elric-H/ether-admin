@@ -12,8 +12,8 @@
  */
 package com.xuan.auth.core.enums;
 
-import lombok.Getter;
 import com.xuan.common.exception.CommonException;
+import lombok.Getter;
 
 /**
  * 登录端类型枚举

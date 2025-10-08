@@ -24,7 +24,7 @@
         <!-- 引入auth接口，用于获取用户信息等 -->
         <dependency>
             <groupId>com.xuan</groupId>
-            <artifactId>ether-plugin-auth-api</artifactId>
+            <artifactId>ether-plugin-auth</artifactId>
         </dependency>
 
         <!-- 引入多数据源接口，用于报表设计的当前数据源选择 -->

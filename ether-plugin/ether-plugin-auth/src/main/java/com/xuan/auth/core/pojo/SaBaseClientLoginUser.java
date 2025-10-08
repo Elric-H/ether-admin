@@ -208,7 +208,7 @@ public abstract class SaBaseClientLoginUser {
 
     /** 数据范围集合 */
     @ApiModelProperty(value = "数据范围集合", position = 45, hidden = true)
-    private List<SaBaseClientLoginUser.DataScope> dataScopeList;
+    private List<DataScope> dataScopeList;
 
     /** 用户密码hash值 */
     @JsonIgnore

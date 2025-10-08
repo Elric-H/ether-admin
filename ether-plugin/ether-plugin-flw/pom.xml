@@ -24,7 +24,7 @@
         <!-- 引入auth接口，用于获取用户信息等 -->
         <dependency>
             <groupId>com.xuan</groupId>
-            <artifactId>ether-plugin-auth-api</artifactId>
+            <artifactId>ether-plugin-auth</artifactId>
         </dependency>
 
         <!-- 引入系统接口，用于工作流的人员查找功能 -->
